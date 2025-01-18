@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İstekler</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head><link rel="stylesheet" href="style.css">
+<body>
+    <h1>İstekler</h1>
+    <p></p>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="sayfa2.html">Hizmetler</a>
+    <a href="sayfa3.html">Kaydol</a>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İstekler Sayfası</title>
+    <link rel="stylesheet" href="istekler.css">
+</head>
+<body>
+    <header>
+        <h1>İstekler Sayfası</h1>
+        <p>Öneri ve isteklerinizi bizimle paylaşın.</p>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h2>İstek Gönder</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Adınız:</label>
+                    <input type="text" id="name" name="name" placeholder="Adınızı giriniz" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-posta:</label>
+                    <input type="email" id="email" name="email" placeholder="E-posta adresinizi giriniz" required>
+                </div>
+                <div class="form-group">
+                    <label for="request">İstek veya Öneriniz:</label>
+                    <textarea id="request" name="request" placeholder="İstek veya önerinizi yazınız" rows="5" required></textarea>
+                </div>
+                <button type="submit">Gönder</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 İstekler Sayfası. Tüm Hakları Saklıdır.</p>
+    </footer>
+</body>
+</html>
